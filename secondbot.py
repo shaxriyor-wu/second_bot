@@ -327,6 +327,905 @@ async def leicester(message: Message):
                          f"Shiori: Foxes Never Quit / #Fearless\n"
                          f"Yutuqlari: 0× UEFA Champions League, 1× First Division, 1× FA Cup, 0× Community Shield\n")
 
+@dp.message(F.text.title() == "Borussia Dortmund") #43
+async def dortmund(message: Message):
+    await message.reply(f"Borussia Dortmund jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1909-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 5×, DFB-Pokal: 5×, Superkubok: 6×, UCL: 1×\n")
+
+@dp.message(F.text.title() == "Borussia Monchengladbach") #44
+async def gladbach(message: Message):
+    await message.reply(f"Borussia Mönchengladbach jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1900-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 5×, DFB-Pokal: 3×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Werder Bremen") #45
+async def werder(message: Message):
+    await message.reply(f"Werder Bremen jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1899-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 4×, DFB-Pokal: 6×, Superkubok: (aniq raqam), UCL: 0×\n")
+
+@dp.message(F.text.title() == "Hamburger SV") #46
+async def hsv(message: Message):
+    await message.reply(f"Hamburger SV jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1887-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 3×, DFB-Pokal: 3×, Superkubok: (aniq yo‘q), UCL: 0×\n")
+
+@dp.message(F.text.title() == "VfB Stuttgart") #47
+async def stuttgart(message: Message):
+    await message.reply(f"VfB Stuttgart jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1893-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 5× (jumladan 3× moderna davrda), DFB-Pokal: 4×, Superkubok: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Bayer Leverkusen") #48
+async def leverkusen(message: Message):
+    await message.reply(f"Bayer Leverkusen jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 1×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Fc Köln") #49
+async def koln(message: Message):
+    await message.reply(f"1. FC Köln jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1948-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 2×, DFB-Pokal: 3×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Vfl Wolfsburg") #50
+async def wolfsburg(message: Message):
+    await message.reply(f"VfL Wolfsburg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 2342-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 1×, DFB-Pokal: 1×, Superkubok: (aniq yo‘q), UCL: 0×\n")
+
+@dp.message(F.text.title() == "Eintracht Frankfurt") #51
+async def frankfurt(message: Message):
+    await message.reply(f"Eintracht Frankfurt jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1899-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 1×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Schalke 04") #52
+async def schalke(message: Message):
+    await message.reply(f"Schalke 04 jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 2342-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 7×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Fc Augsburg") #53
+async def augsburg(message: Message):
+    await message.reply(f"FC Augsburg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Rb Leipzig") #54
+async def leipzig(message: Message):
+    await message.reply(f"RB Leipzig jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 2009-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Sc Freiburg") #55
+async def freiburg(message: Message):
+    await message.reply(f"SC Freiburg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Union Berlin") #56
+async def union(message: Message):
+    await message.reply(f"Union Berlin jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1966-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Mainz 05") #57
+async def mainz(message: Message):
+    await message.reply(f"Mainz 05 jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1905-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Angers") #58
+async def angers(message: Message):
+    await message.reply(f"Angers jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1919-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 0×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Auxerre") #59
+async def auxerre(message: Message):
+    await message.reply(f"Auxerre jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1905-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 4×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Brest") #60
+async def brest(message: Message):
+    await message.reply(f"Brest jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1950-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 0×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Le Havre") #61
+async def lehavre(message: Message):
+    await message.reply(f"Le Havre jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1872-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 1×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Lens") #62
+async def lens(message: Message):
+    await message.reply(f"Lens jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1906-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 1×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Lille") #63
+async def lille(message: Message):
+    await message.reply(f"Lille jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1944-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 4×, Coupe de France: 6×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Lyon") #64
+async def lyon(message: Message):
+    await message.reply(f"Lyon jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1950-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 7×, Coupe de France: 5×, Trophée des Champions: 8×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Marseille") #65
+async def marseille(message: Message):
+    await message.reply(f"Marseille jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1899-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 9×, Coupe de France: 10×, Trophée des Champions: 3×, UCL: 1×\n")
+
+@dp.message(F.text.title() == "Monaco") #66
+async def monaco(message: Message):
+    await message.reply(f"Monaco jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1924-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 8×, Coupe de France: 5×, Trophée des Champions: 4×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Montpellier") #67
+async def montpellier(message: Message):
+    await message.reply(f"Montpellier jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1919-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 2×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Nantes") #68
+async def nantes(message: Message):
+    await message.reply(f"Nantes jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1943-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 8×, Coupe de France: 4×, Trophée des Champions: 3×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Nice") #69
+async def nice(message: Message):
+    await message.reply(f"Nice jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 4×, Coupe de France: 3×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Paris Saint-Germain") #70
+async def psg(message: Message):
+    await message.reply(f"Paris Saint-Germain jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1970-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 12×, Coupe de France: 14×, Trophée des Champions: 12×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Reims") #71
+async def reims(message: Message):
+    await message.reply(f"Reims jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1931-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 6×, Coupe de France: 2×, Trophée des Champions: 5×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Rennes") #72
+async def rennes(message: Message):
+    await message.reply(f"Rennes jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1901-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 3×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Saint-Étienne") #73
+async def saintetienne(message: Message):
+    await message.reply(f"Saint-Étienne jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1933-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 10×, Coupe de France: 6×, Trophée des Champions: 5×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Strasbourg") #74
+async def strasbourg(message: Message):
+    await message.reply(f"Strasbourg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1906-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 3×, Trophée des Champions: 2×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Toulouse") #75
+async def toulouse(message: Message):
+    await message.reply(f"Toulouse jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1970-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 2×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Atlético Madrid") #74
+async def atleticomadrid(message: Message):
+    await message.reply(f"Atlético Madrid jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1903-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 11×, Copa del Rey: 10×, Supercopa de España: 2×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Real Sociedad") #75
+async def realsociedad(message: Message):
+    await message.reply(f"Real Sociedad jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1909-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 2×, Copa del Rey: 3×, Supercopa de España: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Athletic Bilbao") #76
+async def athleticbilbao(message: Message):
+    await message.reply(f"Athletic Bilbao jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1898-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 8×, Copa del Rey: 24×, Supercopa de España: 3×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Real Betis") #77
+async def realbetis(message: Message):
+    await message.reply(f"Real Betis jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1907-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 1×, Copa del Rey: 3×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Villarreal") #78
+async def villarreal(message: Message):
+    await message.reply(f"Villarreal jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1923-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Sevilla") #79
+async def sevilla(message: Message):
+    await message.reply(f"Sevilla jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1890-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 1×, Copa del Rey: 5×, Supercopa de España: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Valencia") #80
+async def valencia(message: Message):
+    await message.reply(f"Valencia jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1919-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 6×, Copa del Rey: 8×, Supercopa de España: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Celta Vigo") #81
+async def celtavigo(message: Message):
+    await message.reply(f"Celta Vigo jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1923-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Osasuna") #82
+async def osasuna(message: Message):
+    await message.reply(f"Osasuna jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1920-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Mallorca") #83
+async def mallorca(message: Message):
+    await message.reply(f"Mallorca jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1916-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 1×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Getafe") #84
+async def getafe(message: Message):
+    await message.reply(f"Getafe jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1983-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Alaves") #85
+async def alaves(message: Message):
+    await message.reply(f"Alavés jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1921-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Rayo Vallecano") #86
+async def rayovallecano(message: Message):
+    await message.reply(f"Rayo Vallecano jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1924-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Las Palmas") #87
+async def laspalmas(message: Message):
+    await message.reply(f"Las Palmas jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1949-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Girona") #88
+async def girona(message: Message):
+    await message.reply(f"Girona jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1930-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Leganes") #89
+async def leganes(message: Message):
+    await message.reply(f"Leganés jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1928-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Benfica") #90
+async def benfica(message: Message):
+    await message.reply(f"Benfica jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: E pluribus unum\n"
+                         f"Yutuqlari: Primeira Liga: 38×, Taca de Portugal: 26×, Liga Kubogi: 7×, UCL: 2×\n")
+
+@dp.message(F.text.title() == "Portu") #91
+async def porto(message: Message):
+    await message.reply(f"Porto jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1893-yil\n"
+                         f"Shiori: Invicta\n"
+                         f"Yutuqlari: Primeira Liga: 30×, Taca de Portugal: 19×, Liga Kubogi: 1×, UCL: 2×\n")
+
+@dp.message(F.text.title() == "Sporting ") #92
+async def sporting_cp(message: Message):
+    await message.reply(f"Sporting CP jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1906-yil\n"
+                         f"Shiori: Esforço, Dedicação, Devoção e Glória\n"
+                         f"Yutuqlari: Primeira Liga: 19×, Taca de Portugal: 17×, Liga Kubogi: 4×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Braga") #93
+async def braga(message: Message):
+    await message.reply(f"Braga jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1921-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Primeira Liga: 0×, Taca de Portugal: 3×, Liga Kubogi: 2×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Vitoria") #94
+async def vitoria_guimaraes(message: Message):
+    await message.reply(f"Vitoria de Guimaraes jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1922-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Primeira Liga: 0×, Taca de Portugal: 1×, Liga Kubogi: 0×, UCL: 0×\n")
+
+
+@dp.message(F.text.title() == "Al Hilal") #95
+async def al_hilal(message: Message):
+    await message.reply(f"Al Hilal jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1957-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 18×, King’s Cup: 10×, Crown Prince Cup: 13×, AFC Champions League: 4×\n")
+
+@dp.message(F.text.title() == "Al Nassr") #96
+async def al_nassr(message: Message):
+    await message.reply(f"Al Nassr jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1955-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 9×, King’s Cup: 6×, Crown Prince Cup: 3×, AFC Champions League: 0×\n")
+
+@dp.message(F.text.title() == "Al Ittihad") #97
+async def al_ittihad(message: Message):
+    await message.reply(f"Al Ittihad jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1927-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 9×, King’s Cup: 9×, Crown Prince Cup: 8×, AFC Champions League: 2×\n")
+
+@dp.message(F.text.title() == "Al Ahli") #98
+async def al_ahli(message: Message):
+    await message.reply(f"Al Ahli jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1937-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 3×, King’s Cup: 13×, Crown Prince Cup: 6×, AFC Champions League: 0×\n")
+
+@dp.message(F.text.title() == "Al Shabab") #99
+async def al_shabab(message: Message):
+    await message.reply(f"Al Shabab jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1947-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 6×, King’s Cup: 3×, Crown Prince Cup: 3×, AFC Champions League: 0×\n")
+
+
+@dp.message(F.text.title() == "Galatasaray") #100
+async def galatasaray(message: Message):
+    await message.reply(f"Galatasaray jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1905-yil\n"
+                         f"Shiori: Cimbom\n"
+                         f"Yutuqlari: Super Lig: 24×, Turkiya Kubogi: 18×, Superkubok: 16×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Fenerbahce") #101
+async def fenerbahce(message: Message):
+    await message.reply(f"Fenerbahce jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1907-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Super Lig: 28×, Turkiya Kubogi: 6×, Superkubok: 9×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Besiktas") #102
+async def besiktas(message: Message):
+    await message.reply(f"Besiktas jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1903-yil\n"
+                         f"Shiori: Kara Kartallar\n"
+                         f"Yutuqlari: Super Lig: 16×, Turkiya Kubogi: 10×, Superkubok: 9×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Trabzonspor") #103
+async def trabzonspor(message: Message):
+    await message.reply(f"Trabzonspor jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1967-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Super Lig: 7×, Turkiya Kubogi: 9×, Superkubok: 8×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Basaksehir") #104
+async def basaksehir(message: Message):
+    await message.reply(f"Basaksehir jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1990-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Super Lig: 1×, Turkiya Kubogi: 0×, Superkubok: 0×, UCL: 0×\n")@dp.message(F.text.title() == "Borussia Dortmund") #43
+async def dortmund(message: Message):
+    await message.reply(f"Borussia Dortmund jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1909-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 5×, DFB-Pokal: 5×, Superkubok: 6×, UCL: 1×\n")
+
+@dp.message(F.text.title() == "Borussia Monchengladbach") #44
+async def gladbach(message: Message):
+    await message.reply(f"Borussia Mönchengladbach jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1900-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 5×, DFB-Pokal: 3×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Werder Bremen") #45
+async def werder(message: Message):
+    await message.reply(f"Werder Bremen jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1899-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 4×, DFB-Pokal: 6×, Superkubok: (aniq raqam), UCL: 0×\n")
+
+@dp.message(F.text.title() == "Hamburger SV") #46
+async def hsv(message: Message):
+    await message.reply(f"Hamburger SV jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1887-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 3×, DFB-Pokal: 3×, Superkubok: (aniq yo‘q), UCL: 0×\n")
+
+@dp.message(F.text.title() == "VfB Stuttgart") #47
+async def stuttgart(message: Message):
+    await message.reply(f"VfB Stuttgart jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1893-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 5× (jumladan 3× moderna davrda), DFB-Pokal: 4×, Superkubok: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Bayer Leverkusen") #48
+async def leverkusen(message: Message):
+    await message.reply(f"Bayer Leverkusen jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 1×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Fc Köln") #49
+async def koln(message: Message):
+    await message.reply(f"1. FC Köln jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1948-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 2×, DFB-Pokal: 3×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Vfl Wolfsburg") #50
+async def wolfsburg(message: Message):
+    await message.reply(f"VfL Wolfsburg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 2342-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 1×, DFB-Pokal: 1×, Superkubok: (aniq yo‘q), UCL: 0×\n")
+
+@dp.message(F.text.title() == "Eintracht Frankfurt") #51
+async def frankfurt(message: Message):
+    await message.reply(f"Eintracht Frankfurt jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1899-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 1×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Schalke 04") #52
+async def schalke(message: Message):
+    await message.reply(f"Schalke 04 jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 2342-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 7×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Fc Augsburg") #53
+async def augsburg(message: Message):
+    await message.reply(f"FC Augsburg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Rb Leipzig") #54
+async def leipzig(message: Message):
+    await message.reply(f"RB Leipzig jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 2009-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Sc Freiburg") #55
+async def freiburg(message: Message):
+    await message.reply(f"SC Freiburg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Union Berlin") #56
+async def union(message: Message):
+    await message.reply(f"Union Berlin jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1966-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Mainz 05") #57
+async def mainz(message: Message):
+    await message.reply(f"Mainz 05 jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1905-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Bundesliga: 0×, DFB-Pokal: 0×, Superkubok: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Angers") #58
+async def angers(message: Message):
+    await message.reply(f"Angers jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1919-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 0×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Auxerre") #59
+async def auxerre(message: Message):
+    await message.reply(f"Auxerre jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1905-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 4×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Brest") #60
+async def brest(message: Message):
+    await message.reply(f"Brest jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1950-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 0×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Le Havre") #61
+async def lehavre(message: Message):
+    await message.reply(f"Le Havre jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1872-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 1×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Lens") #62
+async def lens(message: Message):
+    await message.reply(f"Lens jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1906-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 1×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Lille") #63
+async def lille(message: Message):
+    await message.reply(f"Lille jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1944-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 4×, Coupe de France: 6×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Lyon") #64
+async def lyon(message: Message):
+    await message.reply(f"Lyon jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1950-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 7×, Coupe de France: 5×, Trophée des Champions: 8×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Marseille") #65
+async def marseille(message: Message):
+    await message.reply(f"Marseille jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1899-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 9×, Coupe de France: 10×, Trophée des Champions: 3×, UCL: 1×\n")
+
+@dp.message(F.text.title() == "Monaco") #66
+async def monaco(message: Message):
+    await message.reply(f"Monaco jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1924-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 8×, Coupe de France: 5×, Trophée des Champions: 4×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Montpellier") #67
+async def montpellier(message: Message):
+    await message.reply(f"Montpellier jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1919-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 2×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Nantes") #68
+async def nantes(message: Message):
+    await message.reply(f"Nantes jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1943-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 8×, Coupe de France: 4×, Trophée des Champions: 3×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Nice") #69
+async def nice(message: Message):
+    await message.reply(f"Nice jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 4×, Coupe de France: 3×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Paris Saint-Germain") #70
+async def psg(message: Message):
+    await message.reply(f"Paris Saint-Germain jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1970-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 12×, Coupe de France: 14×, Trophée des Champions: 12×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Reims") #71
+async def reims(message: Message):
+    await message.reply(f"Reims jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1931-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 6×, Coupe de France: 2×, Trophée des Champions: 5×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Rennes") #72
+async def rennes(message: Message):
+    await message.reply(f"Rennes jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1901-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 3×, Trophée des Champions: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Saint-Étienne") #73
+async def saintetienne(message: Message):
+    await message.reply(f"Saint-Étienne jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1933-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 10×, Coupe de France: 6×, Trophée des Champions: 5×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Strasbourg") #74
+async def strasbourg(message: Message):
+    await message.reply(f"Strasbourg jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1906-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 1×, Coupe de France: 3×, Trophée des Champions: 2×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Toulouse") #75
+async def toulouse(message: Message):
+    await message.reply(f"Toulouse jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1970-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Ligue 1: 0×, Coupe de France: 2×, Trophée des Champions: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Atlético Madrid") #74
+async def atleticomadrid(message: Message):
+    await message.reply(f"Atlético Madrid jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1903-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 11×, Copa del Rey: 10×, Supercopa de España: 2×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Real Sociedad") #75
+async def realsociedad(message: Message):
+    await message.reply(f"Real Sociedad jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1909-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 2×, Copa del Rey: 3×, Supercopa de España: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Athletic Bilbao") #76
+async def athleticbilbao(message: Message):
+    await message.reply(f"Athletic Bilbao jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1898-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 8×, Copa del Rey: 24×, Supercopa de España: 3×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Real Betis") #77
+async def realbetis(message: Message):
+    await message.reply(f"Real Betis jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1907-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 1×, Copa del Rey: 3×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Villarreal") #78
+async def villarreal(message: Message):
+    await message.reply(f"Villarreal jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1923-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Sevilla") #79
+async def sevilla(message: Message):
+    await message.reply(f"Sevilla jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1890-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 1×, Copa del Rey: 5×, Supercopa de España: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Valencia") #80
+async def valencia(message: Message):
+    await message.reply(f"Valencia jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1919-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 6×, Copa del Rey: 8×, Supercopa de España: 1×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Celta Vigo") #81
+async def celtavigo(message: Message):
+    await message.reply(f"Celta Vigo jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1923-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Osasuna") #82
+async def osasuna(message: Message):
+    await message.reply(f"Osasuna jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1920-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Mallorca") #83
+async def mallorca(message: Message):
+    await message.reply(f"Mallorca jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1916-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 1×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Getafe") #84
+async def getafe(message: Message):
+    await message.reply(f"Getafe jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1983-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Alaves") #85
+async def alaves(message: Message):
+    await message.reply(f"Alavés jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1921-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Rayo Vallecano") #86
+async def rayovallecano(message: Message):
+    await message.reply(f"Rayo Vallecano jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1924-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Las Palmas") #87
+async def laspalmas(message: Message):
+    await message.reply(f"Las Palmas jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1949-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Girona") #88
+async def girona(message: Message):
+    await message.reply(f"Girona jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1930-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Leganes") #89
+async def leganes(message: Message):
+    await message.reply(f"Leganés jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1928-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: LaLiga: 0×, Copa del Rey: 0×, Supercopa de España: 0×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Benfica") #90
+async def benfica(message: Message):
+    await message.reply(f"Benfica jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1904-yil\n"
+                         f"Shiori: E pluribus unum\n"
+                         f"Yutuqlari: Primeira Liga: 38×, Taca de Portugal: 26×, Liga Kubogi: 7×, UCL: 2×\n")
+
+@dp.message(F.text.title() == "Portu") #91
+async def porto(message: Message):
+    await message.reply(f"Porto jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1893-yil\n"
+                         f"Shiori: Invicta\n"
+                         f"Yutuqlari: Primeira Liga: 30×, Taca de Portugal: 19×, Liga Kubogi: 1×, UCL: 2×\n")
+
+@dp.message(F.text.title() == "Sporting ") #92
+async def sporting_cp(message: Message):
+    await message.reply(f"Sporting CP jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1906-yil\n"
+                         f"Shiori: Esforço, Dedicação, Devoção e Glória\n"
+                         f"Yutuqlari: Primeira Liga: 19×, Taca de Portugal: 17×, Liga Kubogi: 4×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Braga") #93
+async def braga(message: Message):
+    await message.reply(f"Braga jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1921-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Primeira Liga: 0×, Taca de Portugal: 3×, Liga Kubogi: 2×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Vitoria") #94
+async def vitoria_guimaraes(message: Message):
+    await message.reply(f"Vitoria de Guimaraes jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1922-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Primeira Liga: 0×, Taca de Portugal: 1×, Liga Kubogi: 0×, UCL: 0×\n")
+
+
+@dp.message(F.text.title() == "Al Hilal") #95
+async def al_hilal(message: Message):
+    await message.reply(f"Al Hilal jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1957-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 18×, King’s Cup: 10×, Crown Prince Cup: 13×, AFC Champions League: 4×\n")
+
+@dp.message(F.text.title() == "Al Nassr") #96
+async def al_nassr(message: Message):
+    await message.reply(f"Al Nassr jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1955-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 9×, King’s Cup: 6×, Crown Prince Cup: 3×, AFC Champions League: 0×\n")
+
+@dp.message(F.text.title() == "Al Ittihad") #97
+async def al_ittihad(message: Message):
+    await message.reply(f"Al Ittihad jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1927-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 9×, King’s Cup: 9×, Crown Prince Cup: 8×, AFC Champions League: 2×\n")
+
+@dp.message(F.text.title() == "Al Ahli") #98
+async def al_ahli(message: Message):
+    await message.reply(f"Al Ahli jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1937-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 3×, King’s Cup: 13×, Crown Prince Cup: 6×, AFC Champions League: 0×\n")
+
+@dp.message(F.text.title() == "Al Shabab") #99
+async def al_shabab(message: Message):
+    await message.reply(f"Al Shabab jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1947-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Saudi Pro League: 6×, King’s Cup: 3×, Crown Prince Cup: 3×, AFC Champions League: 0×\n")
+
+
+@dp.message(F.text.title() == "Galatasaray") #100
+async def galatasaray(message: Message):
+    await message.reply(f"Galatasaray jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1905-yil\n"
+                         f"Shiori: Cimbom\n"
+                         f"Yutuqlari: Super Lig: 24×, Turkiya Kubogi: 18×, Superkubok: 16×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Fenerbahce") #101
+async def fenerbahce(message: Message):
+    await message.reply(f"Fenerbahce jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1907-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Super Lig: 28×, Turkiya Kubogi: 6×, Superkubok: 9×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Besiktas") #102
+async def besiktas(message: Message):
+    await message.reply(f"Besiktas jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1903-yil\n"
+                         f"Shiori: Kara Kartallar\n"
+                         f"Yutuqlari: Super Lig: 16×, Turkiya Kubogi: 10×, Superkubok: 9×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Trabzonspor") #103
+async def trabzonspor(message: Message):
+    await message.reply(f"Trabzonspor jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1967-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Super Lig: 7×, Turkiya Kubogi: 9×, Superkubok: 8×, UCL: 0×\n")
+
+@dp.message(F.text.title() == "Basaksehir") #104
+async def basaksehir(message: Message):
+    await message.reply(f"Basaksehir jamoasi haqida:\n"
+                         f"Tashkil topgan yili: 1990-yil\n"
+                         f"Shiori: -\n"
+                         f"Yutuqlari: Super Lig: 1×, Turkiya Kubogi: 0×, Superkubok: 0×, UCL: 0×\n")
+
+
 
 
 
